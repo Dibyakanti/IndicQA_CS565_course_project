@@ -4,7 +4,7 @@ This contains the code for the results obtained using mBERT, XLM-Roberta and ind
 
 ## Dataset :
 
-The chaii-dataset was directly used for fine-tuning and besides that we used models that have been pre-trained on xQUAD, SQUAD2 and mergedQUAD. \ 
+The chaii-dataset was directly used for fine-tuning and besides that we used models that have been pre-trained on xQUAD, SQUAD2 and mergedQUAD. \
 The chai dataset consists of : \
 `id` : unique id for each input \
 `context` : a paragraph based on which the question has to be answered \
