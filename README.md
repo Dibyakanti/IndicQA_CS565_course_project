@@ -18,10 +18,11 @@ The models which were used are m-BERT (multilingual BERT), XLM-Roberta and indic
 ## Train :
 
 To train, run the notebooks after setting the proper address for tokenizer and model.
+The data that were used on kaggle are `huggingface-question-answering-models`, `ai4bharat-indic-bert`, `chaii-hindi-and-tamil-question-answering`.
 
 ## Test : 
 
-
+For testing we have prepared the `submission.csv` file which is in the format demanded by kaggle. After running the notebook on kaggle just select the csv file from outputs and submit it.
 
 ## Results
 
