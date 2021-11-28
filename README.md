@@ -4,13 +4,24 @@ This contains the code for the results obtained using mBERT, XLM-Roberta and ind
 
 ## Dataset :
 
+The chaii-dataset was directly used for fine-tuning and besides that we used models that have been pre-trained on xQUAD, SQUAD2 and mergedQUAD.\ 
+The chai dataset consists of : \
+`context` : a paragraph based on which the question has to be answered \
+`question` : the question that has to be answered \
+`answer_start` : the index from which the answer starts (only train) \
+`answer_text` : the answer in string format
 
 ## Models :
 
+The models which were used are m-BERT (multilingual BERT), XLM-Roberta and indic-BERT.
 
 ## Train :
 
+To train, run the notebooks after setting the proper address for tokenizer and model.
+
 ## Test : 
+
+
 
 ## Results
 
